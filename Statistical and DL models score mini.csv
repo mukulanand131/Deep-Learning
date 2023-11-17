@@ -1,0 +1,11 @@
+Model,MAE,RMSE,R2
+LSTM,0.85819336,1.144249453,0.975038228
+BI-LSTM,0.864876252,1.148798901,0.974839341
+GRU,0.846310026,1.148752232,0.974841385
+CNN,0.882476324,1.162470501,0.974236915
+RNN,0.870141831,1.15432764,0.974596581
+Naive Forecaster,2.5231,4.6095,-0.0103
+Theta Forecaster,2.6104,4.6388,-0.0275
+Extreme Gradient Boosting w/ Cond. Deseasonalize & Detrending,2.6354,3.2595,0.4878
+Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,2.7337,3.5515,0.4047
+Gradient Boosting w/ Cond. Deseasonalize & Detrending,2.9839,3.827,0.2772

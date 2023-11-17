@@ -1,0 +1,6 @@
+,Model,MASE,RMSSE,MAE,RMSE,MAPE,SMAPE,R2
+naive,Naive Forecaster,0.7039,0.9254,2.5231,4.6095,0.106,0.0925,-0.0103
+theta,Theta Forecaster,0.7282,0.9313,2.6104,4.6388,0.1092,0.096,-0.0275
+xgboost_cds_dt,Extreme Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.7349,0.6544,2.6354,3.2595,0.1029,0.0993,0.4878
+lightgbm_cds_dt,Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.7624,0.7131,2.7337,3.5515,0.1081,0.1032,0.4047
+gbr_cds_dt,Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.8321,0.7683,2.9839,3.827,0.118,0.1096,0.2772
